@@ -1,0 +1,27 @@
+.pointContainer {
+    position:relative;
+    width:0;
+    height:0;
+}
+.point {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    display:inline-block;
+    border-radius:50%;
+    background-color:#ff0000;
+    z-index:20000;
+}
+.line {
+    position:absolute;
+    width:100px;
+    color:#c00000;
+    background-color:#c00000;
+    z-index:10000;
+    height:2px;
+}
+.mainwrapper {
+    margin:20px;
+    border-radius:5px;
+    background-color: gray;
+}

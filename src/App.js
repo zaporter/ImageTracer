@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import ImageHolder from './components/ImageHolder.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <h1 style={{'text-align':'center'}}>Image Tracer</h1>
+        <p>This is just a simple tool to put points on an image and get their pixel coordinates. It also tells you the image dimensions. This can be useful for tracing images or performing mathematical analysis.</p>
+        <p>Controls:</p>
+        <ul>
+            <li>Left click: add a point to the trace</li>
+            <li>Right click: remove the clicked point from the trace</li>
+            </ul>
+        <ImageHolder/>
     </div>
   );
 }

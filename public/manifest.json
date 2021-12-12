@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Image Tracer Manual",
+  "name": "Free online manual image tracer to get pixel positions of coordinates on an image",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,5 +21,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#f0f0f0"
 }
