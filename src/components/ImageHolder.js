@@ -25,11 +25,6 @@ function ImageHolder() {
         let offY = event.target.offsetTop;
         let x = absX-offX;
         let y = absY-offY;
-        console.log(event);
-        console.log(absX);
-        console.log(absY);
-        console.log(offX);
-        console.log(offY);
 
         setPointLocs(pointLocs.concat([[x,y]]));
         console.log("("+x+","+y+")");
